@@ -28,5 +28,6 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/p4-common/recovery/reco
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 
-TARGET_PREBUILT_KERNEL := device/samsung/p4vzw/kernel
+# Kernel Config
+TARGET_KERNEL_CONFIG := infamous_p4vzw_defconfig
 
